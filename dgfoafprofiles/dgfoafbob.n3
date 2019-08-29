@@ -1,10 +1,10 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
-@prefix dgfoaf: <https://raw.githubusercontent.com/FSCHOEN/RDF-Test-Data/dgfoaf/0.1/dgfoaf.owl#>.
-@prefix : <https://raw.githubusercontent.com/FSCHOEN/RDF-Test-Data/dgfoafprofiles/dgfoafbob.n3#>.
+@prefix dgfoaf: <https://raw.githubusercontent.com/FSCHOEN/RDF-Test-Data/master/dgfoaf/0.1/dgfoaf.owl#>.
+@prefix : <https://raw.githubusercontent.com/FSCHOEN/RDF-Test-Data/master/dgfoafprofiles/dgfoafbob.n3#>.
 
-<https://raw.githubusercontent.com/FSCHOEN/RDF-Test-Data/dgfoafprofiles/dgfoafbob.n3> a foaf:PersonalProfileDocument;
+<https://raw.githubusercontent.com/FSCHOEN/RDF-Test-Data/master/dgfoafprofiles/dgfoafbob.n3> a foaf:PersonalProfileDocument;
 	foaf:primarytopic :me;
 	foaf:maker :me.
 
@@ -13,7 +13,7 @@
 
 :wh99 a foaf:Group;
 	dgfoaf:hasPolicy :wh99p;
-	dgfoaf:hasPersonMember <https://raw.githubusercontent.com/FSCHOEN/RDF-Test-Data/dgfoafprofiles/dgfoafjohn.n3#me>.
+	dgfoaf:hasPersonMember <https://raw.githubusercontent.com/FSCHOEN/RDF-Test-Data/master/dgfoafprofiles/dgfoafjohn.n3#me>.
 
 :wh99p a dgfoaf:AdministratedGroupPolicy;
 	dgfoaf:hasLabel "WestParkHigh99Group";
@@ -25,6 +25,6 @@
 	
 :wh99cp a dgfoaf:AdministratedGroupPolicy;
 	dgfoaf:hasLabel "WestParkHigh99GroupAdmins";
-	dgfoaf:hasDefaultMemberPerson <https://raw.githubusercontent.com/FSCHOEN/RDF-Test-Data/dgfoafprofiles/dgfoafalice.n3#me>;
+	dgfoaf:hasDefaultMemberPerson <https://raw.githubusercontent.com/FSCHOEN/RDF-Test-Data/master/dgfoafprofiles/dgfoafalice.n3#me>;
 	dgfoaf:hasDefaultMemberPerson :me.
 	
