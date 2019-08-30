@@ -9,7 +9,7 @@
 	foaf:maker :me.
 
 :me a foaf:Person;
-	foaf:name "Alan Lanston";
+	foaf:name "Alan Lanston".
 
 :GreatGroup a foaf:Group;
 	dgfoaf:hasPolicy :GreatGroupPolicy;
