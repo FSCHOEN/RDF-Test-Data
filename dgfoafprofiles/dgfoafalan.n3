@@ -2,7 +2,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
 @prefix dgfoaf: <https://raw.githubusercontent.com/FSCHOEN/RDF-Test-Data/master/dgfoaf/0.1/dgfoaf.owl#>.
-@prefix : <https://raw.githubusercontent.com/FSCHOEN/RDF-Test-Data/master/dgfoafprofiles/dgfoafalan.n3#>.
+@prefix : <c.
 
 <https://raw.githubusercontent.com/FSCHOEN/RDF-Test-Data/master/dgfoafprofiles/dgfoafalan.n3> a foaf:PersonalProfileDocument;
 	foaf:primarytopic :me;
