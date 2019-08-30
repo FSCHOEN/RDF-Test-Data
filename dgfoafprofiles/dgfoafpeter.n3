@@ -4,8 +4,8 @@
 @prefix dgfoaf: <http://userpages.uni-koblenz.de/~schwagereit/dgfoaf/0.1/dgfoaf.owl#>.
 @prefix : <http://example.org/peter/card#>.
 
-@prefix rsa: <http://www.w3.org/ns/auth/rsa#>
-@prefix cert: <http://www.w3.org/ns/auth/cert#>
+@prefix rsa: <http://www.w3.org/ns/auth/rsa#>.
+@prefix cert: <http://www.w3.org/ns/auth/cert#>.
 
 <http://example.org/peter/card#> a foaf:PersonalProfileDocument;
 	foaf:primarytopic :me;
