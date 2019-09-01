@@ -13,7 +13,7 @@
 
 :me a foaf:Person;
 	foaf:name "John Johnson";
-	cert:identity :me;
+	cert:identity :me.
 	[ a rsa:RSAPublicKey; 
 	rsa:public_exponent "65537"^^cert:decimal;
 	rsa:modulus "82010100b3b7d521063f4ba2cfb0aa96a1c6643aa72853fc9900bfa0c9bbc671c68aafb76e9d63d27f6e6643c2cd46bc005d5f3d1a5d5935065d9677fd4d08782d919acac9aa566c5bd78a6df8498b8c956c49c1dc98ad4a18e40ab8a972ef3d6c15c710cca66246e08ea974ff198af1cea5b198e96bdad2b416f81c0dedc4ad2bd693f659f73f1f485b7acc065c25dab3415bb9169f6739522def54bc9f71f5905779ead403017cdb7d1ab67f0c3ae17095adb68bdbf39630f3d1d8fde7cf406c3e4b875324bb252389186af699ed566259b277d24238650ff59ebd19f3828eaa4595981a0918ebca23dc56b809ed10d505cc6ed52b0f06fa43126cbc3f4fe2921cf497"^^cert:hex;
