@@ -1,0 +1,21 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix dgfoaf: <http://userpages.uni-koblenz.de/~schwagereit/dgfoaf/0.1/dgfoaf.owl#>.
+@prefix : <https://raw.githubusercontent.com/FSCHOEN/RDF-Test-Data/master/dgfoafprofiles/dgfoafjames.n3>.
+
+@prefix rsa: <http://www.w3.org/ns/auth/rsa#>.
+@prefix cert: <http://www.w3.org/ns/auth/cert#>.
+
+<http://example.org/peter/card#> a foaf:PersonalProfileDocument;
+	foaf:primarytopic :me;
+	foaf:maker :me.
+
+:me a foaf:Person;
+	foaf:name "James Jamson";
+	cert:identity :me.
+	[ a rsa:RSAPublicKey; 
+	rsa:public_exponent "65537"^^cert:decimal;
+	rsa:modulus "BBE6FEE9D8CF66C330A138F4FEF4E8D619D06FFA2CD24BD55435434B6CA8E95D2AB25CEE265BDA795D92E7EA86B8CE0C36BB51D63DB148EF4CF0C3B6F71F2CBC8FEC78C0544E29D9FF014037006E862CE1B6143EA1B019BCDE07513B4E9FB25ACC0CF5C669C39221EA49B57574AEA86169EA382F55404BF865C210ADF50590E2CC9AEFEF80E610CDC42C20FB6E17951EE9EF238874871316EF0F39FB4179005AA6D7A5B9783BE9B9462CCF93B33E3F4D26A6E066814B663280BD3FB42F3DC81F06DCD5FE56F263971946F84B6C8FAF3F28D4EF5DF89723ABC738E718EFA9B914957BADF9B67199C55F301835D13DE5323A101C80968A3F23AC4C08ACA27054AB"^^cert:hex;
+	] cert:identity :me.
+
